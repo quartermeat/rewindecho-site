@@ -97,6 +97,51 @@
             align-items: center;
         }
 
+        .preview-grid {
+            margin-top: 2rem;
+            display: grid;
+            gap: 1rem;
+        }
+
+        .preview-card {
+            display: block;
+            border: 1px solid #2d2d35;
+            background: #15151a;
+            text-decoration: none;
+            color: inherit;
+            overflow: hidden;
+        }
+
+        .preview-card:hover {
+            border-color: #5af;
+        }
+
+        .preview-card img {
+            display: block;
+            width: 100%;
+            height: auto;
+            background: #0a0a0d;
+        }
+
+        .preview-copy {
+            padding: 0.85rem 1rem 1rem;
+            text-align: left;
+        }
+
+        .preview-title {
+            font-size: 0.85rem;
+            color: #d7d7df;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .preview-desc {
+            margin-top: 0.45rem;
+            font-size: 0.78rem;
+            color: #8b8b96;
+            line-height: 1.5;
+        }
+
         .cta-secondary {
             border-color: #666;
             color: #bbb;
@@ -162,6 +207,24 @@
         <p class="note">
             Request Android test access, download the latest map editor, or view a gameplay preview.
         </p>
+
+        <div class="preview-grid">
+            <a class="preview-card" href="media/gameplay_phone.gif" target="_blank" rel="noopener noreferrer">
+                <img src="media/gameplay_phone.gif" alt="Gameplay preview GIF">
+                <div class="preview-copy">
+                    <div class="preview-title">Gameplay Preview</div>
+                    <div class="preview-desc">Phone-focused footage from the Android build.</div>
+                </div>
+            </a>
+
+            <a class="preview-card" href="media/editor_preview.gif" target="_blank" rel="noopener noreferrer">
+                <img src="media/editor_preview.gif" alt="Map editor preview GIF">
+                <div class="preview-copy">
+                    <div class="preview-title">Map Editor Preview</div>
+                    <div class="preview-desc">Fullscreen look at the desktop editor workflow.</div>
+                </div>
+            </a>
+        </div>
 
         <div class="footer">
             &copy; 2026 Quartermeat &nbsp;&middot;&nbsp;
