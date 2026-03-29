@@ -1,0 +1,18 @@
+{
+  "published_at": "2026-03-29T19:13:29Z",
+  "source_commit": "03dccff5c273f8a4a51090810ea19c066db2fc2e",
+  "random_pool": {
+    "path": "random_pool.json",
+    "sha256": "47bed3ca1c12027b08385fe00c4861d364d29443b5992af1d9321e6b3f009ad5",
+    "size_bytes": 14312,
+    "source_path": "generator/data/random_pool_bank.json"
+  },
+  "editor": {
+    "published": true,
+    "path": "downloads/rewind_echo_editor_latest.zip",
+    "sha256": "cc31c8e47ec56c9fe26ee562f7288c1a0b0ec4b514a9009fc25090b018c91ea1",
+    "size_bytes": 15060340,
+    "source_path": "dist/rewind_echo_editor_v0.3.0+19.zip",
+    "source_name": "rewind_echo_editor_v0.3.0+19.zip"
+  }
+}

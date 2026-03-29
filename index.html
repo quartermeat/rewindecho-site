@@ -90,6 +90,23 @@
             color: #0d0d0d;
         }
 
+        .cta-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+            align-items: center;
+        }
+
+        .cta-secondary {
+            border-color: #666;
+            color: #bbb;
+        }
+
+        .cta-secondary:hover {
+            background: #bbb;
+            color: #0d0d0d;
+        }
+
         .note {
             margin-top: 1.2rem;
             font-size: 0.72rem;
@@ -128,12 +145,18 @@
 
         <p class="cta-label">Early Access</p>
 
-        <a class="cta-btn" href="mailto:jeremy.williamson83@gmail.com?subject=REWIND%2F%2FECHO%20%E2%80%94%20Tester%20Request">
-            Request an Invite
-        </a>
+        <div class="cta-stack">
+            <a class="cta-btn" href="mailto:jeremy.williamson83@gmail.com?subject=REWIND%2F%2FECHO%20%E2%80%94%20Tester%20Request">
+                Request an Invite
+            </a>
+
+            <a class="cta-btn cta-secondary" href="https://www.youtube.com/watch?v=vgSHnlChaFY" target="_blank" rel="noopener noreferrer">
+                Watch Gameplay
+            </a>
+        </div>
 
         <p class="note">
-            Send an email and I'll add you to the internal test list.
+            Send an email for Android testing, or watch the latest gameplay footage.
         </p>
 
         <div class="footer">
