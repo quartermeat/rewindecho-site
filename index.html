@@ -1,45 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REWIND//ECHO — Privacy Policy</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      max-width: 720px;
-      margin: 40px auto;
-      padding: 0 20px;
-      color: #222;
-      line-height: 1.6;
-    }
-    h1 { font-size: 1.5em; }
-    h2 { font-size: 1.1em; margin-top: 2em; }
-    a { color: #0066cc; }
-  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REWIND//ECHO</title>
+
+    <meta property="og:title" content="REWIND//ECHO" />
+    <meta property="og:description" content="A puzzle game about time, echoes, and outsmarting your past self." />
+    <meta property="og:url" content="https://quartermeat.github.io/rewindecho-site/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="REWIND//ECHO" />
+    <meta name="twitter:description" content="A puzzle game about time, echoes, and outsmarting your past self." />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html, body {
+            width: 100%;
+            min-height: 100%;
+            background: #0d0d0d;
+            color: #e0e0e0;
+            font-family: 'Share Tech Mono', 'Courier New', monospace;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 560px;
+            width: 100%;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .title {
+            font-size: clamp(2.2rem, 8vw, 3.6rem);
+            letter-spacing: 0.04em;
+            color: #ffffff;
+            line-height: 1;
+        }
+
+        .title .slash {
+            color: #5af;
+        }
+
+        .tagline {
+            margin-top: 1.4rem;
+            font-size: clamp(0.85rem, 2.5vw, 1rem);
+            color: #888;
+            line-height: 1.6;
+            letter-spacing: 0.03em;
+        }
+
+        .divider {
+            margin: 2.5rem auto;
+            width: 48px;
+            height: 2px;
+            background: #5af;
+            opacity: 0.5;
+        }
+
+        .cta-label {
+            font-size: 0.78rem;
+            color: #555;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 0.85rem 2.2rem;
+            border: 1px solid #5af;
+            color: #5af;
+            font-family: inherit;
+            font-size: 0.95rem;
+            letter-spacing: 0.08em;
+            text-decoration: none;
+            transition: background 0.15s, color 0.15s;
+        }
+
+        .cta-btn:hover {
+            background: #5af;
+            color: #0d0d0d;
+        }
+
+        .note {
+            margin-top: 1.2rem;
+            font-size: 0.72rem;
+            color: #444;
+            letter-spacing: 0.05em;
+        }
+
+        .footer {
+            margin-top: 4rem;
+            font-size: 0.7rem;
+            color: #333;
+            letter-spacing: 0.06em;
+        }
+
+        .footer a {
+            color: #444;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #888;
+        }
+    </style>
 </head>
 <body>
-  <h1>Privacy Policy — REWIND//ECHO</h1>
-  <p><em>Last updated: March 28, 2026</em></p>
+    <div class="container">
 
-  <p>REWIND//ECHO is developed by Quartermeat. This policy explains what data is collected when you use the app.</p>
+        <h1 class="title">REWIND<span class="slash">//</span>ECHO</h1>
 
-  <h2>Data We Collect</h2>
-  <p>We do not directly collect, store, or transmit any personal information. Game progress is saved locally on your device only.</p>
+        <p class="tagline">
+            A puzzle game about time, echoes, and outsmarting your past self.<br>
+            Coming to Android.
+        </p>
 
-  <h2>Advertising</h2>
-  <p>This app may display ads served by Google AdMob in current or future versions. AdMob may collect device identifiers and usage data to serve relevant ads. For details, see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+        <div class="divider"></div>
 
-  <h2>Purchases</h2>
-  <p>This app uses Google Play Billing for in-app purchases. Purchase transactions are handled entirely by Google. We do not receive or store your payment information. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> for details.</p>
+        <p class="cta-label">Early Access</p>
 
-  <h2>Third-Party Services</h2>
-  <p>Beyond Google AdMob and Google Play Billing described above, this app does not integrate any analytics, crash reporting, or other third-party data collection services.</p>
+        <a class="cta-btn" href="mailto:jeremy.williamson83@gmail.com?subject=REWIND%2F%2FECHO%20%E2%80%94%20Tester%20Request">
+            Request an Invite
+        </a>
 
-  <h2>Children's Privacy</h2>
-  <p>This app is not directed at children under 13. We do not knowingly collect personal information from children.</p>
+        <p class="note">
+            Send an email and I'll add you to the internal test list.
+        </p>
 
-  <h2>Contact</h2>
-  <p>For questions or data requests, contact: <a href="mailto:jeremy.williamson83@gmail.com">jeremy.williamson83@gmail.com</a></p>
+        <div class="footer">
+            &copy; 2026 Quartermeat &nbsp;&middot;&nbsp;
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+
+    </div>
 </body>
 </html>
